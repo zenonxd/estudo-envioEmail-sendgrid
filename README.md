@@ -239,6 +239,9 @@ public class TestConfig {
 
 Classe Service de teste (Mock), no pacote services.
 
+Essa classe não tem quase nada que a SendGridEmail tem, afinal, ela é de "mentirinha", um mock! Ela irá retoranr somente
+o Log para quem o email foi enviado.
+
 ```java
 public class MockEmailService implements EmailService {
 
